@@ -10,4 +10,7 @@ urlpatterns = [
 
     # Register (app level)
     path('api/auth/', include('accounts.urls')),
+    
+    # Products
+    path('api/', include('products.urls'))
 ]
